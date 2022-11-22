@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo_bild {
+    width: 50px;
+    height: 50px;
+    background-color: #9f5c23;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+#logo_bild_oben {
+    background-color:  rgb(0, 157, 5);
+    width: 100%;
+    height: 30%;
+}
+
+#logo_text a {
+    font-size: 30px;
+    font-family: 'Roboto condensend', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color:black;
+}
+
+ #nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+#nav ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#nav ul a {
+    color: gray;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    cursor:pointer; 
+    color: #00AA55;
+}
+
+#slider {
+    background-image: 
+    url("https://pics.computerbase.de/1/0/3/7/5/9-e76e0679e4fd11ea/article-1280x720.2cad9186.jpg");
+    width: 100%;
+    height: 150px;
+    background-size:cover;
+    background-position: center;
+}
+
+#mitte {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#mitte h1 ,h2 ,h3 ,h4 {
+    color:#00AA55;
+    font-weight: 300;
+}
+
+#mitte p img {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    display: block;
+}
+
+#unten  {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 15px;
+    background:rgb(0, 157, 5)
+}
+
+#unten p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#social_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#social_icons a {
+    padding:10px;
+    font-weight: 300;
+    color:white;
+    text-decoration: none;
+    margin: 5px;
+}  
+
+#social_fb {
+    background-color: rgb(60, 98, 151);
+}
+
+#social_ig {
+    background-color:rgb(246, 13, 83);
+}
+
+
+#social_tw {
+    background-color:rgb(11, 143, 237)
+}
+
+
+
+
