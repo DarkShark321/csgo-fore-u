@@ -14,20 +14,6 @@ p {
     align-items: center;
 }
 
-#logo_bild {
-    width: 50px;
-    height: 50px;
-    background-color: #9f5c23;
-    border-radius: 5px;
-    overflow: hidden
-}
-
-#logo_bild_oben {
-    background-color:  rgb(0, 157, 5);
-    width: 100%;
-    height: 30%;
-}
-
 #logo_text a {
     font-size: 30px;
     font-family: 'Roboto condensend', sans-serif;
@@ -46,6 +32,8 @@ p {
 #nav ul li {
     padding-left: 20px;
     padding-right: 20px;
+    font-weight: 100;
+    color :gray,
 }
 
 #nav ul a {
@@ -59,13 +47,13 @@ p {
 }
 
 #slider {
-    background-image: 
-    url("https://pics.computerbase.de/1/0/3/7/5/9-e76e0679e4fd11ea/article-1280x720.2cad9186.jpg");
-    width: 100%;
-    height: 150px;
-    background-size:cover;
-    background-position: center;
-}
+        background-image: 
+        url("Counter-Strike_Global_Offensive.svg");
+        width: 100%;
+        height: 150px;
+        background-size:cover;
+        background-position: center;
+    } 
 
 #mitte {
     padding-left: 5%;
@@ -88,7 +76,7 @@ p {
     padding-bottom: 20px;
     padding-top: 20px;
     margin-top: 15px;
-    background:rgb(0, 157, 5)
+    background:rgb(173, 21, 178)
 }
 
 #unten p {
@@ -112,7 +100,7 @@ p {
 }  
 
 #social_fb {
-    background-color: rgb(60, 98, 151);
+    background-color: rgb(205, 24, 24);
 }
 
 #social_ig {
@@ -121,7 +109,7 @@ p {
 
 
 #social_tw {
-    background-color:rgb(11, 143, 237)
+    background-color:rgb(4, 4, 4)
 }
 
 
