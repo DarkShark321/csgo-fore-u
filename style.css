@@ -47,12 +47,7 @@ p {
 }
 
 #slider {
-        background-image: 
-        url("Counter-Strike_Global_Offensive.svg");
         width: 100%;
-        height: 150px;
-        background-size:cover;
-        background-position: center;
     } 
 
 #mitte {
