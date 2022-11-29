@@ -59,3 +59,54 @@ p {
     color:#00AA55;
     font-weight: 300;
 }
+
+#mitte p img {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    display: block;
+}
+
+#unten  {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 15px;
+    background:rgb(173, 21, 178)
+}
+
+#unten p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#social_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#social_icons a {
+    padding:10px;
+    font-weight: 300;
+    color:white;
+    text-decoration: none;
+    margin: 5px;
+}  
+
+#social_fb {
+    background-color: rgb(205, 24, 24);
+}
+
+#social_ig {
+    background-color:rgb(246, 13, 83);
+}
+
+
+#social_tw {
+    background-color:rgb(4, 4, 4)
+}
+
+
+
+
