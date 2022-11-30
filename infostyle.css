@@ -55,7 +55,7 @@ p {
     padding-right: 5%;
 }
 
-#mitte h1 ,h2 ,h3 ,h4 {
+#mitte h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
     color:#00AA55;
     font-weight: 300;
 }
@@ -94,7 +94,7 @@ p {
     margin: 5px;
 }  
 
-#social_fb {
+#social_yt {
     background-color: rgb(205, 24, 24);
 }
 
@@ -103,7 +103,7 @@ p {
 }
 
 
-#social_tw {
+#social_tt {
     background-color:rgb(4, 4, 4)
 }
 
